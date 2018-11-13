@@ -1,32 +1,32 @@
 <div id="content">
 
-    <h1 class="teamheader">L'équipe</h1><br>
+  <h1 class="teamheader">L'équipe</h1><br>
 
   <div class="tab">
     <div class="tab-buttons">
-        <button class="tablinks" onclick="openCity(event, 'Andréa')">Andréa</button>
+        <button class="tablinks" onclick="openCity(event, 'Andréa')" id="defaultOpen">Andréa</button>
         <button class="tablinks" onclick="openCity(event, 'Josselin')">Josselin</button>
     </div>
-        <div class="card">
-              <div id="Andréa" class="tabcontent">
-                    <%= image_tag("avatar.jpg", class: "avatar") %>
-                    <div class="container">
-                          <h4><b>Andréa Palma</b></h4>
-                          <p>UI Designer</p>
-                          <button>Contacter</button>
-                    </div>
-              </div>
+    <div class="card">
+          <div id="Andréa" class="tabcontent">
+                <%= image_tag("avatar.jpg", class: "avatar") %>
+                <div class="container">
+                      <h4><b>Andréa Palma</b></h4>
+                      <p>UI Designer</p>
+                      <button>Contacter</button>
+                </div>
+          </div>
 
-              <div id="Josselin" class="tabcontent">
-                    <%= image_tag("joss.jpg", class: "avatar") %>
-                    <div class="container">
-                          <h4><b>Josselin Giffard</b></h4>
-                          <p>UX Designer</p>
-                          <button>Contacter</button>
-                    </div>
-              </div>
-        </div>
-      </div>
+          <div id="Josselin" class="tabcontent">
+                <%= image_tag("joss.jpg", class: "avatar") %>
+                <div class="container">
+                      <h4><b>Josselin Giffard</b></h4>
+                      <p>UX Designer</p>
+                      <button>Contacter</button>
+                </div>
+          </div>
+    </div>
+  </div>
 </div>
 
-<script scr="tabscript.js"></script>
+<script scr="tabscript.js">document.getElementById("defaultOpen").click();</script>

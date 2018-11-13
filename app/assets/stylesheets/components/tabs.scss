@@ -2,33 +2,34 @@
     overflow: hidden;
     border-radius: 15px;
     height: auto;
+    background: rgba(250, 250, 250, 0.8);
 }
 
 .tab-buttons {
-  width: 100%;
+  width: auto;
   text-align: center;
-  
+  height: auto;
 }
 
 /* Style the buttons that are used to open the tab content */
 .tab button {
     background-color: inherit;
-
+    width: 300px;
     border: none;
+    border-bottom: solid 1px #bb999c;
     outline: none;
     cursor: pointer;
-    padding: 14px 16px;
     transition: 0.3s;
 }
 
 /* Change background color of buttons on hover */
 .tab button:hover {
-    background-color: #ddd;
+
 }
 
 /* Create an active/current tablink class */
 .tab button.active {
-    border-bottom: solid 3px red;
+    border-bottom: solid 3px #7b8cde;
 }
 
 /* Style the tab content */
