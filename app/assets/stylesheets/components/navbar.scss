@@ -1,0 +1,48 @@
+/* NAVBAR */
+
+#navbar {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: white;
+  
+
+
+  }
+
+#navline {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+  margin-right: 45px;
+
+}
+
+.home {
+  height:50px;
+  width: auto;
+  left: 100px;
+}
+
+
+
+li {
+    font-family: Arial;
+    /* padding: 10px 10px; */
+    display: inline;
+    height: inherit;
+    color: #373f51;
+    font-weight: bold;
+  }
+
+
+li a {
+  text-decoration: none;
+  color: inherit;
+}
+
+li:hover {
+
+}

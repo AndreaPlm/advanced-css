@@ -1,0 +1,38 @@
+
+/*
+html, body{
+  background: #dee8d5;
+  background: linear-gradient(to top, #a9bcd0, #dee8d5);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+  max-width: 100%;
+
+}
+*/
+
+
+
+#content {
+  background-image: url("bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  max-height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+
+
+
+
+}
+
+.teamheader {
+  font-family: 'Lobster';
+  text-align: center;
+  font-size: 32px;
+  margin-top: 40px;
+  margin-bottom: 25px;
+
+}
