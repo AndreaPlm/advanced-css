@@ -4,25 +4,53 @@
 
   <div class="tab">
     <div class="tab-buttons">
-        <button class="tablinks" onclick="openCity(event, 'Andréa')" id="defaultOpen">Andréa</button>
-        <button class="tablinks" onclick="openCity(event, 'Josselin')">Josselin</button>
+        <button class="tablinks" onclick="openCity(event, 'Andréa')" id="defaultOpen" id="button-andrea">ANDREA</button>
+        <button class="tablinks" onclick="openCity(event, 'Josselin')" id="button-josselin">JOSSELIN</button>
+        <button class="tablinks" onclick="openCity(event, 'Quentin')" id="button-quentin">QUENTIN</button>
+        <button class="tablinks" onclick="openCity(event, 'Jolan')" id="button-josselin">JOLLACRO</button>
     </div>
     <div class="card">
           <div id="Andréa" class="tabcontent">
                 <%= image_tag("avatar.jpg", class: "avatar") %>
                 <div class="container">
-                      <h4><b>Andréa Palma</b></h4>
+                      <h4>Andréa Palma</h4>
                       <p>UI Designer</p>
-                      <button>Contacter</button>
+                      <p>Lyon</p>
+                      <br>
+                      <p>06.xx.xx.xx.xx</p>
                 </div>
           </div>
 
           <div id="Josselin" class="tabcontent">
                 <%= image_tag("joss.jpg", class: "avatar") %>
                 <div class="container">
-                      <h4><b>Josselin Giffard</b></h4>
+                      <h4>Josselin Giffard</h4>
                       <p>UX Designer</p>
-                      <button>Contacter</button>
+                      <p>Lyon</p>
+                      <br>
+                      <p>06.xx.xx.xx.xx</p>
+                </div>
+          </div>
+
+          <div id="Quentin" class="tabcontent">
+                <%= image_tag("quentin.jpg", class: "avatar") %>
+                <div class="container">
+                      <h4>Quentin Potié</h4>
+                      <p>Linux Engineer</p>
+                      <p>Lyon</p>
+                      <br>
+                      <p>06.xx.xx.xx.xx</p>
+                </div>
+          </div>
+
+          <div id="Jolan" class="tabcontent">
+                <%= image_tag("jolan.jpg", class: "avatar") %>
+                <div class="container">
+                      <h4>Jollacro</h4>
+                      <p>Blockchain analyst</p>
+                      <p>Mars</p>
+                      <br>
+                      <p>06.xx.xx.xx.xx</p>
                 </div>
           </div>
     </div>

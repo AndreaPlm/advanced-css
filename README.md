@@ -1,24 +1,20 @@
-# README
+# README Exercice: CSS Avancé
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
 
-Things you may want to cover:
+<img src="https://upload.wikimedia.org/wikipedia/commons/6/62/Ruby_On_Rails_Logo.svg" align="center" />
 
-* Ruby version
 
-* System dependencies
+Bienvenue sur mon super site test ! Il s'agit ici d'un exercice pour parfaire mes skills en CSS.
+Pour m'exercer, j'ai choisi de partir sur un template de site vitrine.
+Quelques petits trucs foirent par ci par là, et c'est pas totalement responsive, mais je me suis bien amusée donc c'est cool !
 
-* Configuration
+Les typos utilisées sont tirées de Google Font, en voici la liste:
+- Julius Sans One
+- Nanum Gothic Coding
+- M PLUS 1p
 
-* Database creation
 
-* Database initialization
+* Le lien en prod
+https://advanced-css-plm.herokuapp.com/
 
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Ciaciao

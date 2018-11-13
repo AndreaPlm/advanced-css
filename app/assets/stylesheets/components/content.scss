@@ -10,7 +10,7 @@ html, body{
 
 }
 */
-@import url("//fonts.googleapis.com/css?family=Lobster");
+@import url("//fonts.googleapis.com/css?family=Julius+Sans+One");
 
 
 #content {
@@ -21,18 +21,36 @@ html, body{
   display: flex;
   flex-direction: column;
   align-items: center;
-
-
-
-
-
 }
 
 .teamheader {
-  font-family: 'Lobster';
+  font-family: 'Julius Sans One';
   text-align: center;
-  font-size: 32px;
+  font-size: 70px;
   margin-top: 40px;
-  margin-bottom: 25px;
+  margin-bottom: 40px;
+  color: white;
 
+}
+.wrapper-content{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  margin-top: 50px;
+}
+
+.wrapper-text{
+  text-align: justify;
+  padding: 20px 20px;
+  max-width: 50%;
+  border-radius:30px 0 30px 0;
+  background: rgba(250, 250, 250, 0.8);
+  display: flex;
+  align-items: center;
+
+}
+
+.wrapper-img{
+  float: right;
 }

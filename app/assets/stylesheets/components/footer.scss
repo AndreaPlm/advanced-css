@@ -2,38 +2,33 @@
 
 #footer{
   width: 100%;
-  background-color: #F2F2F2;
+  background-color: white;
   bottom: 0px;
   position: fixed;
   height: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  font-size: 10px;
 }
 
 .left{
   color: rgb(102, 102, 102);
   /*vertical-align: baseline;*/
-  display: flex;
+  float: left;
+  margin-left: 10px;
 }
 
 .right{
   color: rgb(102, 102, 102);
   /*vertical-align: baseline;*/
-  display: flex;
+
   float: right;
-  align-items: center;
+
 
 }
 
-.right_footer_link , .left_footer_link{
-  color: rgb(102, 102, 102);
-  vertical-align: center;
-}
 
-.right_footer_link{
-  margin-right: 25px;
-}
-.left_footer_link{
-  margin-left: 25px;
-}
 
 .github {
    height: 20px;
